@@ -1,0 +1,175 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+.centered {
+  margin: 0 auto;
+}
+
+.flex-centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.regular {
+  font-weight: 400;
+}
+
+#hero {
+  background-image: url("images/Stanley\ Bridge.jpg");
+  width: 720px;
+  height: 343px;
+  background-size: cover;
+}
+
+#headings {
+  flex-direction: column;
+  color: #FFFFFF;
+  width: 100%;
+  height: 100%;
+}
+
+#hometown-name {
+  padding: 8px 16px;
+  background: #1D3557;
+  border-radius: 10px;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+#invite-text {
+  padding: 8px 16px;
+  background: #457B9D;
+  width: 355px;
+  height: 39px;
+  font-size: 18px;
+  margin-top: 10px;
+  padding: 8px 25px;
+  border-radius: 10px;
+}
+
+#activities {
+  width: 720px;
+  height: 378px;
+  background-color: #F1FAEE;
+}
+
+#main-activities {
+  display: flex;
+  justify-content: space-around;
+}
+
+#activities-header {
+  display: block;
+  margin: 39px 0 54px 0;
+  text-align: center;
+  font-size: 24px;
+}
+
+.activities-images {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 28px;
+  transition: transform .2s;
+}
+
+.activities-images:hover {
+  transform: scale(1.5)
+}
+
+.activity {
+  width: 183px;
+  height: 32px;
+  font-size: 16px;
+  margin: 0 auto 12px auto;
+}
+
+.in-detail {
+  width: 198px;
+  height: 55px;
+  font-weight: 400;
+  font-size: 16px;
+  margin: 12px auto 38px auto;
+}
+
+#digital-card {
+  width: 720px;
+  height: 394px;
+  text-align: center;
+}
+
+#card {
+  display: flex;
+  width: 400px;
+  height: 294px;
+  background-color: #A8DADC;
+  border-radius: 15px;
+  box-shadow: 0 6px #1D3557;
+}
+
+#card-details {
+  margin: auto auto;
+}
+
+#per {
+  width: 180px;
+  border-radius: 10px;
+}
+
+#my-info {
+  color: #1D3557;
+}
+
+#card-header {
+  width: 207px;
+  height: 32px;
+  font-size: 32px;
+  margin: 0 auto 14px auto;
+}
+
+#info {
+  width: 189px;
+  height: 71px;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 16px;
+  margin: 14px auto 26px auto;
+}
+
+#name {
+  width: 189px;
+  height: 18px;
+  font-size: 16px;
+}
+
+footer {
+  width: 720px;
+  height: 100%;
+  flex-direction: column;
+  border-radius: 10px;
+  color: #f1faee;
+  background-color: #457b9d;
+}
+
+ul {
+  margin: 0;
+}
+
+.footer-text {
+  margin: 8px 0 0 0;
+}
+
+.profile {
+  color: whitesmoke;
+}
+
+.profile:hover {
+  color: yellow;
+}
