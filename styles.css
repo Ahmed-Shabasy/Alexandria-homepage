@@ -78,6 +78,8 @@ body {
   border-radius: 50%;
   margin-bottom: 28px;
   transition: transform .2s;
+  box-shadow: 3px 3px 3px #1D3557;
+
 }
 
 .activities-images:hover {
